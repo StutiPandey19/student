@@ -1,19 +1,19 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm [Stuti Pandey]
 hide: true
 ---
 
 ### Me and Team
 
-Hi! My name is [Your Full Name].
+Hi! My name is [Stuti Pandey].
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
-| Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
-| Scrummer     | Torin    | github.com/torin/student            | downstream (fork)     | student   |
-| Scrummer     | Avantika | github.com/avantika/student         | downstream (fork)     | student   |
-| Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
+| Scrum Master | Mr.M     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
+| Scrummer     | Krystal  | github.com/torin/student            | downstream (fork)     | student   |
+| Scrummer     | Precia   | github.com/avantika/student         | downstream (fork)     | student   |
+| Scrummer     | Tasha    | github.com/aaadit/student           | downstream (fork)     | student   |
 
 
 ## Links to Learning
@@ -31,15 +31,15 @@ Hi! My name is [Your Full Name].
 <a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
-    <span style="color: #FFFFFF">VSCODE</span>
+<a href="https://vscode.dev/" class="button small" style="background-color: #aa05b6ff">
+    <span style="color: #e51515ff">VSCODE</span>
 </a>
 
 <br>
 
 ### Class Progress
 
-<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #bf121bff">
     Snake Game
 </a>
 <a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
