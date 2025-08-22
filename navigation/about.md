@@ -99,7 +99,7 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places
+Here is some things that describe who I am and what I've experience!
 
 - 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
 - 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
@@ -113,12 +113,10 @@ Here is what I did at those places
 
 ### Culture, Family, and Fun
 
-Everything for me, as for many others, revolves around family and faith.
+My family is Hindu. And our Hindu family greatly believes in balance across all aspects of life. Like balacning studies and fun! Working hard and enjoying your time is a big principle to me.
 
 - My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
-
+- My family consists of me, my mom, my dad, and my older brother. My older brother graduated from UCLA class of 2025! He majored in Neuroscience. I look up to him and his efforts he put into making his life succesful and wildly fun. 
 <comment>
 Gallery of Pics, scroll to the right for more ...
 </comment>
