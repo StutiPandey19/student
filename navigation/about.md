@@ -129,7 +129,7 @@ My family is Hindu. And our Hindu family greatly believes in balance across all 
 Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/Haley.png" alt="Tasha1">
+  <img src="{{site.baseurl}}/images/about/Haley.PNG" alt="Tasha1">
   <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
   <img src="{{site.baseurl}}/images/about/tamara_fam.jpg" alt="Image 3">
   <img src="{{site.baseurl}}/images/about/surf.jpg" alt="Image 4">
