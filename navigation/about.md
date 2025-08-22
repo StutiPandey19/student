@@ -101,21 +101,31 @@ Flags are made using Wikipedia images
 
 Here is some things that describe who I am and what I've experience!
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
-- ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
-- 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
-- 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
-- 💼 Eugene Oregon, founder and owner @ Microniche `88, Point Control CAD CAM developer '91 to '96
-- 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
-- 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
+- Born & Raised in San Diego:
+Ive lived in sunny San Diego my whole life, and being here has shaped a lot of who I am. I love the mix of beaches, city life, and always having something fun to do close by.
+
+Dance & Competitions:
+Ive been dancing for years and have tried many different styles. Its something Im really passionate about because it lets me express myself and stay active. Ive competed at a ton of events and even traveled to Las Vegas for competitions, which was such an exciting experience.
+
+Trips to Los Angeles:
+I go to LA pretty often to visit my brother in college. While Im there, I love checking out new places, exploring the city, and just enjoying the energy of LA.
+
+Active Lifestyle:
+I enjoy being on the move and doing physical activities beyond dance, whether its trying new sports, outdoor adventures, or just staying busy with fun things to do.
+
+Friends & Fun:
+Spending time with my friends is super important to me. I love hanging out, going shopping, grabbing food, and making great memories together. Its always fun to try something new with them.
+
+Love for Learning & Challenges:
+I like learning about new topics and pushing myself with difficult tasks from time to time. It feels great to accomplish something that seemed hard at first and it helps me grow.
+
+Do you want me to make it sound more casual and fun like a teen bio (with emojis or slang), or keep it neat and mature like above?
 
 ### Culture, Family, and Fun
 
 My family is Hindu. And our Hindu family greatly believes in balance across all aspects of life. Like balacning studies and fun! Working hard and enjoying your time is a big principle to me.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+-
 - My family consists of me, my mom, my dad, and my older brother. My older brother graduated from UCLA class of 2025! He majored in Neuroscience. I look up to him and his efforts he put into making his life succesful and wildly fun. 
 <comment>
 Gallery of Pics, scroll to the right for more ...
