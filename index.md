@@ -11,9 +11,9 @@ Hi! My name is [Stuti Pandey].
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
 | Scrum Master | Mr.M     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
-| Scrummer     | Krystal  | github.com/torin/student            | downstream (fork)     | student   |
-| Scrummer     | Precia   | github.com/avantika/student         | downstream (fork)     | student   |
-| Scrummer     | Tasha    | github.com/aaadit/student           | downstream (fork)     | student   |
+| Scrummer     | Krystal  | github.com/krystal-227/student      | downstream (fork)     | student   |
+| Scrummer     | Precia   | github.com/precia/student           | downstream (fork)     | student   |
+| Scrummer     | Tasha    | github.com/StutiPandey19/student    | downstream (fork)     | student   |
 
 
 ## Links to Learning
@@ -31,7 +31,7 @@ Hi! My name is [Stuti Pandey].
 <a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #aa05b6ff">
+<a href="https://vscode.dev/" class="button small" style="background-color: #256f14ff">
     <span style="color: #e51515ff">VSCODE</span>
 </a>
 
