@@ -386,6 +386,44 @@
    "version": "3.12.5"
   }
  },
+ {
+  "cell_type": "markdown",
+  "id": "pg13-jokes-title",
+  "metadata": {},
+  "source": [
+    "### PG-13 Jokes\n",
+    "\n",
+    "A fun collection of lighthearted PG-13 jokes (school-appropriate, no harsh content)."
+  ]
+},
+{
+  "cell_type": "code",
+  "execution_count": null,
+  "id": "pg13-jokes-code",
+  "metadata": {
+    "vscode": {
+      "languageId": "javascript"
+    }
+  },
+  "outputs": [],
+  "source": [
+    "%%javascript\n",
+    "\n",
+    "var pg13_joke_list = [\n",
+    "    \"Why don’t scientists trust atoms? Because they make up everything.\",\n",
+    "    \"Why don’t skeletons ever fight each other? They don’t have the guts.\",\n",
+    "    \"What did the janitor say when he jumped out of the closet? Supplies!\",\n",
+    "    \"Why was the math book sad? Because it had too many problems.\",\n",
+    "    \"Why don’t eggs tell jokes? They’d crack each other up.\",\n",
+    "    \"Why did the scarecrow win an award? Because he was outstanding in his field.\",\n",
+    "    \"Why did the golfer bring two pairs of pants? In case he got a hole in one.\"\n",
+    "];\n",
+    "\n",
+    "var randomIndex = Math.floor(Math.random() * pg13_joke_list.length);\n",
+    "console.log(\"PG-13 Joke #\" + (randomIndex + 1) + \": \" + pg13_joke_list[randomIndex]);"
+  ]
+}
+
  "nbformat": 4,
  "nbformat_minor": 5
 }
