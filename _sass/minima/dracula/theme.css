@@ -5,8 +5,8 @@
 
 [class^=language-]:not(.language-plaintext) pre,
 [class^=language-]:not(.language-plaintext) code {
-  background-color: #323443 !important;
-  color: #f8f8f2;
+  background-color: #33a613 !important;
+  color: #dbdb58;
 }
 
 .language-python + .language-plaintext code {
@@ -14,7 +14,7 @@
 }
 
 .language-python + .language-plaintext pre {
-  background-color: #323443 !important;
+  background-color: #da168f !important;
 }
 
 .input_area pre, .input_area div {
@@ -22,7 +22,7 @@
   margin-top: 1.5rem !important;
   padding-bottom: 0 !important;
   padding-top: 0 !important;
-  background: #323443 !important;
+  background: #1428c4 !important;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
@@ -172,10 +172,10 @@
 .highlight .kr,
 .highlight .nt,
 .highlight .ow {
-  color: #ff79c6;
+  color: #553ca6;
 }
 .highlight .kc {
-  color: rgb(172, 229, 145);
+  color: rgb(209, 185, 28);
 }
 .highlight .m,
 .highlight .mb,
@@ -184,10 +184,10 @@
 .highlight .mi,
 .highlight .mo,
 .highlight .il {
-  color: #bd93f9;
+  color: #1b51ae;
 }
 .highlight .gd {
-  color: #ff5555;
+  color: #6cea6e;
 }
 
 p code {
