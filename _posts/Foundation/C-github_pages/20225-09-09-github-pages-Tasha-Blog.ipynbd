@@ -1,0 +1,115 @@
+---
+layout: post
+title: "Blog"
+date: 2025-09-09
+categories: [Foundation, C-github_pages]
+---
+
+
+# Hello! I'm Tasha Pandey! A CSSE Student :D
+
+
+I decided to take this class because I am passionate about computer science, design, and building cool projects. And especially being a learning experience designer!
+
+Introduction - First time Setup Activities: 
+-------------------------------------------------------------------------------------------------------------------------------
+This will be an introduction to the basics of CSSE. Focusing on the basic and fun tools and equipment allows us as students to become learning experience designers! 
+
+
+---
+We will then know we are ready for the next steps in our design! Code code code! Let's start off with Jupyter notebooks!
+
+# Step-by-Step Jupyter Notebooks
+---------------------------------------------------------------
+For this actiivity, we are going to learn how to create a Jupyter notebook and insert code into it. We will be completeing this project in a really fun way, by using jokes! 
+
+Our goal is to have an output of one randomly selected joke, out of 8 jokes. We will do this by running a "jokes machine" which allows us to run a series of jokes at random.
+
+Let's do it, code code code!
+-----------------------------------------------------------------
+**First**
+- Open a NEW "Jupyter Notebook" file
+- Open up a fresh VSCode tab and keep it off to the side
+- Go back to the menu (Cntl+Shift+P) 
+
+**Important** - Type 'Create: New Jupyter Notebook'. And then click the first result. If you get a "Untitled.ipynb" file,then just know, your on track!
+
+- Rename the file to somthing that is more organizable like "jokes". Now, with this being said and done, you should be able to copy and paste your jokes. Copy and paste this javascript:
+
+%%javascript
+
+var compsci_joke_list = [
+    { joke: "Why do programmers prefer dark mode? Because light attracts bugs.", complexity: "1" },
+    { joke: "Why do Java developers wear glasses? Because they don't see sharp.", complexity: "2" },
+    { joke: "How many programmers does it take to change a light bulb? None, that's a hardware problem.", complexity: "1" },
+    { joke: "Why do Python programmers prefer snake_case? Because they can't C.", complexity: "2" },
+    { joke: "Why was the JavaScript developer sad? Because he didn't know how to 'null' his feelings.", complexity: "3" },
+    { joke: "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25.", complexity: "3" },
+    { joke: "Why did the programmer quit his job? Because he didn't get arrays.", complexity: "O(n)" },
+    { joke: "Why do Linux programmers prefer using the terminal? Because they don't like Windows.", complexity: "1" },
+];
+var randomIndex = Math.floor(Math.random() * compsci_joke_list.length);
+var selectedJoke = compsci_joke_list[randomIndex];
+console.log("Joke #" + (randomIndex + 1) + ": " + selectedJoke.joke + " (Complexity: " + selectedJoke.complexity + ")");
+
+**Now..**
+- Open the help page, and "Toggle Developer Tools"
+- From this page, press clear console 
+- Now, go back to your jokes.ipynb and press the little play button.
+-Once you recieve your checkmark, you must go back to your developer tools.
+
+**Once you see the the jokes randomly being selected as output, then congratulate yourself! you just got Jupyter Notebooks running.**
+
+
+## Step-by-Step Theme Change Process
+
+
+1. **Go into your Pages repo**
+2. **Update your repo:**
+  - Open the VSCode Terminal
+  - Run:
+    ```bash
+   git pull
+    ```
+3. **Build your site:**
+  - Run:
+    ```bash
+   make
+    ```
+4. **Preview your site:**
+  - Hover over the server address and click the link to view your site locally.
+5. **Change the theme:**
+  - In the same terminal, run:
+    ```bash
+   make serve-so-simple
+    ```
+6. **Preview the new theme:**
+  - Hover over the new server address and click the link.
+7. **Celebrate!**
+  - Once you click the link, a new sever adress listing "127: 0.0.0.1" Shpouuld pop up. if this server with the new theme shows up, congrats. You just got your theme working!
+
+
+---
+
+
+## Quick Reference: Commands
+Notes with common commands that we have used
+
+```bash
+git pull
+make
+make serve-so-simple
+cat .github/
+venv
+
+```
+
+
+---
+
+
+## Links 
+Helpful links:
+- [My GitHub](https://github.com/Stutipandey19)
+
+
