@@ -2,6 +2,7 @@
 layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
+# put dragon.png to change the background 
 sprite: images/platformer/sprites/dragon.png
 background: images/platformer/backgrounds/water.png
 permalink: /background
@@ -16,7 +17,7 @@ permalink: /background
   const spriteImg = new Image();
   backgroundImg.src = '{{page.background}}';
   spriteImg.src = '{{page.sprite}}';
-
+// This event will get called once background image will get completly loaded
   let imagesLoaded = 0;
   backgroundImg.onload = function() {
     imagesLoaded++;
@@ -28,7 +29,7 @@ permalink: /background
   };
 
   function startGameWorld() {
-    if (imagesLoaded < 2) return;
+    if (imagesLoaded < 2) return; // if both image not loaded yet do not start game
 
     class GameObject {
       constructor(image, width, height, x = 0, y = 0, speedRatio = 0) {
@@ -41,6 +42,7 @@ permalink: /background
         this.speed = GameWorld.gameSpeed * this.speedRatio;
       }
       update() {}
+      //render the image
       draw(ctx) {
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
       }
@@ -51,6 +53,7 @@ permalink: /background
         // Fill entire canvas
         super(image, gameWorld.width, gameWorld.height, 0, 0, 0.1);
       }
+      //update image while moving/scrolling
       update() {
         this.x = (this.x - this.speed) % this.width;
       }
@@ -59,7 +62,7 @@ permalink: /background
         ctx.drawImage(this.image, this.x + this.width, this.y, this.width, this.height);
       }
     }
-
+//PLayer is inherited from base class Gameobject
     class Player extends GameObject {
       constructor(image, gameWorld) {
         const width = image.naturalWidth / 2;
@@ -70,13 +73,14 @@ permalink: /background
         this.baseY = y;
         this.frame = 0;
       }
+      //Updates frames
       update() {
         this.y = this.baseY + Math.sin(this.frame * 0.05) * 20;
         this.frame++;
       }
     }
-
-    class GameWorld {
+//Class to handle whole canvas that has background image and sprite image
+    class GameWoorld {
       static gameSpeed = 5;
       constructor(backgroundImg, spriteImg) {
         this.canvas = document.getElementById("world");
@@ -102,13 +106,15 @@ permalink: /background
           obj.update();
           obj.draw(this.ctx);
         }
+        //request Animation frame
         requestAnimationFrame(this.gameLoop.bind(this));
       }
+      //starts the game loop
       start() {
         this.gameLoop();
       }
     }
-
+    //instantiate object of Gameworld
     const world = new GameWorld(backgroundImg, spriteImg);
     world.start();
   }
