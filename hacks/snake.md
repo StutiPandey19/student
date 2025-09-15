@@ -81,7 +81,7 @@ permalink: /snake/
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>Game Over, press <span style="background-color: #239e23ff; color: #000000">space</span> to try again</p>
+            <p>Game Over, press <span style="background-color: #235e23ff; color: #000000">space</span> to try again</p>
             <a id="new_game1" class="link-alert">new game</a>
             <a id="setting_menu1" class="link-alert">settings</a>
         </div>
@@ -327,7 +327,7 @@ permalink: /snake/
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
+            ctx.fillStyle = "#ff0000ff";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
@@ -362,7 +362,7 @@ permalink: /snake/
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
-            if(wall === 0){screen_snake.style.borderColor = "#606060";}
+            if(wall === 0){screen_snake.style.borderColor = "#4e1717ff";}
             if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
         }
     })();
